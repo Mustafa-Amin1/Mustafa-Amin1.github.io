@@ -1,0 +1,196 @@
+/* =========== START GLOBAL STYLING===== */
+
+*{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding: 0;
+    /* height: 2000px; */
+    font-family: 'ZCOOL Qingke HuangYou', cursive;
+}
+.overlay{
+        background-color: rgba(0,0,0,.5);
+        height: 100%; /* responsive*/
+}
+.container{
+    padding: 0 7%;
+}
+.section{
+    padding: 30px 0px;
+}
+/* =========== END GLOBAL STYLING===== */
+/* ===========Start Header styling==== */
+#header{
+   
+     /* responsive*/
+    
+}
+/* ===========End Header Styling=======*/
+
+
+/*============Start nav bar Styling====*/
+#header nav{
+  
+    background-color: #7517A1;
+    border-radius: 50px 0px;
+    
+   
+}
+#header nav .logo{
+    float: left;
+    width:30%;
+    
+}
+#header nav .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-weight: 900;
+    line-height: 2;
+}
+#header nav .navbar{
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: 70%;
+    list-style: none;
+    text-align: right;
+}
+
+#header nav .navbar li {
+display: inline-block;
+margin:0 10px; 
+text-decoration: none;
+}
+
+.navbar li.li-properties a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 0;
+    padding-left: 0;
+}
+.navbar li img{
+    display: inline-block;
+    height: 40px;
+    border-radius: 50%;
+    padding-right: 0;
+    margin-right: 0;
+}
+#header .text{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    margin: 15vh auto; 
+}
+#header .text h1{
+    font-size: 3vw;
+}
+#header .text button{
+    background-color: #f89d13;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid transparent;
+    transition: .3s all ease;
+}
+
+/*============End nav bar Styling======*/
+
+/*=========== Start Students List======*/
+
+section .className{
+    text-align: center;
+    color: #D92F6F;
+    font-size: 35px;
+}
+section .className h1{
+    
+    font-weight: bold;
+    padding: 40px;
+}
+section .Students-list .student img, section .Students-list .randoms img ,section #result img{
+    min-height: 11rem;
+    max-height: 11rem;
+    width: 100%;
+    border-top-left-radius: 20%;
+}
+section #result img{
+    min-height: 15rem;
+    max-height: 15rem;
+}
+section .Students-list .student h1, section .Students-list .randoms h1, section #result h1{
+    background-color: #A91F40;
+    color: white;
+    margin: 0;
+    padding: 12px 0;
+    font-size: 16px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    text-transform: uppercase;
+}
+#random-btn button{
+    /* margin: 55px 40%; */
+    background-color: #A91F40;
+    box-shadow: 5px 6px 10px grey;
+    padding: 10px;
+    outline: none;
+}
+#random-btn .random a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*=========== End Students List======*/
+
+
+/*===========Start Random Area=============*/
+
+section #result{
+    width: 100%;
+}
+
+/* Start footer */
+#footer{
+    position: relative; /* for footer*/
+    height: 100px;
+    margin-top: 50px;
+}
+#footer .footer-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 20px;
+}
+#footer p{
+    margin: 20px;
+    font-size: 15px;
+}
+#footer p span{
+    color: #FE7E23;
+    font-family: 'Meie Script', cursive;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#footer p strong{
+    color:rgb(249, 112, 112);
+    font-size: 20px;
+}
+/* End footer */
+
+/* ================================== media query ====================== */
+@media (max-width:992px) and (min-width:762px){
+    .student{
+        /* max-width: 31%; */
+        flex: 0 0 33%;
+    }
+}
+
